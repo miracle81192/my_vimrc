@@ -10,19 +10,11 @@ set nowrapscan
 " 不检测文件类型
 filetype off
 
-" set the runtime path to include Vundle and initialize
+
 set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-
 Plugin 'kabbamine/vcoolor.vim'
 Plugin 'guns/vim-clojure-highlight'
 Plugin 'guns/vim-sexp'
